@@ -1,0 +1,83 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+ :root {
+  --theme-default-text-color: white;
+  --theme-default-bg-color: #242424;
+  --theme-default-secondary: gray;
+  --theme-default-table-head-color: var(--theme-default-secondary);
+  --theme-default-rank-color: var(--theme-default-text-color);
+  --theme-default-level-color: yellow;
+  --theme-default-team-rank-color: var(--theme-default-text-color);
+  --theme-default-team-level-color: var(--theme-default-level-color);
+  --theme-default-alias-color: var(--theme-default-text-color);
+  --theme-default-bad-color: red;
+  --theme-default-good-color: green;
+  --theme-default-wins-color: var(--theme-default-text-color);
+  --theme-default-losses-color: var(--theme-default-text-color);
+  --theme-default-ratio-color: var(--theme-default-text-color);
+  --theme-default-total-color: var(--theme-default-text-color);
+  --theme-default-last-game-color: var(--theme-default-text-color);
+  --theme-default-separator-color: var(--theme-default-secondary);
+
+  --theme-streamer-text-color: white;
+  --theme-streamer-bg-color: #00b140;
+  --theme-streamer-secondary: rgb(168, 168, 168);
+  --theme-streamer-table-head-color: var(--theme-default-secondary);
+  --theme-streamer-rank-color: var(--theme-default-text-color);
+  --theme-streamer-level-color: yellow;
+  --theme-streamer-team-rank-color: var(--theme-default-text-color);
+  --theme-streamer-team-level-color: var(--theme-default-level-color);
+  --theme-streamer-alias-color: var(--theme-default-text-color);
+  --theme-streamer-bad-color: red;
+  --theme-streamer-good-color: rgb(255, 255, 255);
+  --theme-streamer-wins-color: var(--theme-default-text-color);
+  --theme-streamer-losses-color: var(--theme-default-text-color);
+  --theme-streamer-ratio-color: var(--theme-default-text-color);
+  --theme-streamer-total-color: var(--theme-default-text-color);
+  --theme-streamer-last-game-color: var(--theme-default-text-color);
+  --theme-streamer-separator-color: var(--theme-default-secondary);
+
+  --text-color: var(--theme-default-text-color);
+  --bg-color: var(--theme-default-bg-color);
+  --table-head-color: var(--theme-default-table-head-color);
+  --rank-color: var(--theme-default-rank-color);
+  --level-color: var(--theme-default-level-color);
+  --team-rank-color: var(--theme-default-team-rank-color);
+  --team-level-color: var(--theme-default-team-level-color);
+  --alias-color: var(--theme-default-alias-color);
+  --bad-color: var(--theme-default-bad-color);
+  --good-color: var(--theme-default-good-color);
+  --wins-color: var(--theme-default-wins-color);
+  --losses-color: var(--theme-default-losses-color);
+  --ratio-color: var(--theme-default-ratio-color);
+  --total-color: var(--theme-default-total-color);
+  --last-game-color: var(--theme-default-last-game-color);
+  --separator-color: var(--theme-default-separator-color);
+
+  --baseUnit: 1.25rem;
+  --u0: calc(var(--baseUnit)/2);
+  --u1: var(--baseUnit);
+  --u2: calc(var(--baseUnit)*2);
+  --u3: calc(var(--u2)*2);
+  --u4: calc(var(--u3)*2);
+  --u5: calc(var(--u4)*2);
+  --u6: calc(var(--u5)*2);
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-weight: 600;
+}

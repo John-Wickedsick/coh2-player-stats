@@ -1,0 +1,18 @@
+{
+  "name": "coh2-player-stats",
+  "productName": "Company of Heroes 2 Player Stats Display",
+  "version": "1.0.0",
+  "description": "An app that shows the stats of the players in your coh2 match",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "Coh2 Player Stats Maintainers",
+    "email": "mail2dimension@gmail.com",
+    "url": "https://github.com/John-Wickedsick/coh2-player-stats"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules"
+  },
+  "license": "MIT"
+}

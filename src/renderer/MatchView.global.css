@@ -1,0 +1,101 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+.topContainer {
+  /* display: flex; */
+  padding: var(--u1);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.teamGroup {
+  /* flex: 1; */
+}
+
+.rightTeam {
+  /* text-align: right; */
+}
+
+table {
+
+}
+
+.playerRow {
+  cursor: inherit;
+}
+
+th {
+  text-align: left;
+  color: var(--table-head-color);
+}
+.textCenter {
+  text-align: center;
+}
+
+.factionImg {
+  width: var(--u3);
+  height: var(--u3);
+}
+
+.positiveStreak {
+  color: var(--good-color);
+}
+
+.negativeStreak {
+  color: var(--bad-color);
+}
+
+.ratioCol {
+  width: 6ch;
+  text-align: center;
+}
+
+.streakCol {
+  width: 7ch;
+  text-align: center;
+}
+
+.factionCol {
+  width: var(--u2);
+}
+
+.rankCol {
+  width: 9ch;
+  text-align: center;
+}
+
+.levelSection {
+  color: var(--level-color);
+  vertical-align: middle;
+}
+
+.levelImg {
+  width: var(--u2);
+  height: var(--u2);
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.nameField {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.starImg {
+  width: calc(var(--u1) + var(--u0));
+  height: calc(var(--u1) + var(--u0));
+}
+
+.starArea {
+  padding-left: var(--u1);
+}
+
+.vsSplit {
+  padding: var(--u1);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: italic;
+}
