@@ -14,6 +14,8 @@ Better late than never. This is a new tool display the Stats of the players with
 - Automaticaly finds the log file of COH2
 - Streamer mode for overlays
 
+![Screenshot](/documentation/images/screenshot.jpg?raw=true "")
+
 ## Usage
 
 Download and install the newest release from: https://github.com/John-Wickedsick/coh2-player-stats/releases
