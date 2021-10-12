@@ -1,6 +1,6 @@
 {
   "name": "coh2-player-stats",
-  "productName": "Company of Heroes 2 Player Stats Display",
+  "productName": "Coh2 Player Stats Display",
   "version": "1.0.0",
   "description": "An app that shows the stats of the players in your coh2 match",
   "main": "./dist/main/main.js",

@@ -1,4 +1,6 @@
 .loadingContainer {
+  background-color: var(--bg-color);
+  color: var(--text-color);
   padding: var(--u2);
   font-style: italic;
   font-size: 2.5rem;

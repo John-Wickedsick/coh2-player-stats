@@ -2,9 +2,10 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
-
 .topContainer {
   /* display: flex; */
+  background-color: var(--bg-color);
+  color: var(--text-color);
   padding: var(--u1);
   padding-top: 0;
   padding-bottom: 0;

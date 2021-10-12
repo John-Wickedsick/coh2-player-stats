@@ -48,6 +48,20 @@ export default class MenuBuilder {
           process.env.DEBUG_PROD === 'true'
             ? [
                 {
+                  label: '&Normal Mode',
+                  accelerator: 'Ctrl+N',
+                  click: () => {
+                    this.mainWindow.webContents.send('view', 'normal');
+                  },
+                },
+                {
+                  label: '&Streamer Mode',
+                  accelerator: 'Ctrl+S',
+                  click: () => {
+                    this.mainWindow.webContents.send('view', 'streamer');
+                  },
+                },
+                {
                   label: '&Reload',
                   accelerator: 'Ctrl+R',
                   click: () => {
@@ -72,6 +86,20 @@ export default class MenuBuilder {
                 },
               ]
             : [
+                {
+                  label: '&Normal Mode',
+                  accelerator: 'Ctrl+N',
+                  click: () => {
+                    this.mainWindow.webContents.send('view', 'normal');
+                  },
+                },
+                {
+                  label: '&Streamer Mode',
+                  accelerator: 'Ctrl+S',
+                  click: () => {
+                    this.mainWindow.webContents.send('view', 'streamer');
+                  },
+                },
                 {
                   label: 'Toggle &Full Screen',
                   accelerator: 'F11',

@@ -1,6 +1,6 @@
 {
   "name": "coh2-player-stats",
-  "productName": "Company of Heroes 2 Player Stats Display",
+  "productName": "Coh2 Player Stats Display",
   "description": "An app that shows the stats of the players in your coh2 match",
   "scripts": {
     "build": "concurrently \"npm run build:main\" \"npm run build:renderer\"",
@@ -30,7 +30,7 @@
     ]
   },
   "build": {
-    "productName": "Company of Heroes 2 Player Stats Display",
+    "productName": "Coh2 Player Stats Display",
     "appId": "org.community.COH2PlayerStats",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",

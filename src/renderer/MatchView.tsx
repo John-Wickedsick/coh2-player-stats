@@ -5,11 +5,18 @@ import './MatchView.global.css';
 
 interface Props {
   players: any;
+  viewMode: string;
 }
 
-const MatchView: React.FC<Props> = ({ players }) => {
+const MatchView: React.FC<Props> = ({ players, viewMode }) => {
   return (
-    <div className="topContainer">
+    <div
+      className={
+        viewMode === 'streamer'
+          ? 'streamerView topContainer'
+          : 'normalView topContainer'
+      }
+    >
       <div className="teamGroup leftTeam">
         <table>
           <tr>
