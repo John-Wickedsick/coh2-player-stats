@@ -14,9 +14,10 @@ Better late than never. This is a new tool display the Stats of the players with
 - Automaticaly finds the log file of COH2
 - Streamer mode for overlays
 
-## Install
+## Usage
 
-
+Download and install the newest release from: https://github.com/John-Wickedsick/coh2-player-stats/releases
+Execute it and it automatically scans for games in the background.
 
 ## Contributing
 
@@ -47,6 +48,3 @@ npm run package
 ### Docs
 
 This repo was build on the electron-react-boilerplate [docs and guides on that are here](https://electron-react-boilerplate.js.org/docs/installation)
-
-
-## License
